@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-purple {
+    background: #8e00a3;
+}
+
+@media (min-width: 1300px) {
+    .container, .container-md, .container-sm, .container-xl, .container-lg {
+        max-width: 1200px !important;
+    }
+}
+    
+.headerWrapper .top-strip{
+    padding: 8px 0px;
+}
+
+.headerWrapper .top-strip p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* ------------------------- Header -------------------- */
+.headerWrapper .header {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.logoWrapper img {
+    width: 70%;
+}
+
+.headerWrapper .header .part2 .countryDropdown {
+    width: 170px;
+    height: 60px;
+    min-width: 150px;
+    color:#000 !important;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.headerWrapper .header .part2 .countryDropdown {
+    text-align: left;
+    justify-content: flex-start !important;
+}
+
+.headerWrapper .header .part2 .countryDropdown .label {
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-transform: capitalize !important;
+    line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDropdown .name {
+    font-size: 14px !important;
+    font-weight: 600;
+    color: #8e00a3;
+    text-transform: capitalize !important;
+    line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDropdown span.ms-auto svg {
+    opacity: 0.5;
+}
+
+header .headerSearch{
+    width: 60%;
+    height: 60px;
+    border-radius: 15px;
+    background: #f3f4f7;
+    position: relative;    
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;  
+    padding: 5px  
+}
+
+header .headerSearch input {
+    background: transparent !important;
+    outline: none !important;
+    border: none !important;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 20px !important;
+    height: 45px;
+    width: 100%    
+}
+
+header .headerSearch input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+header .headerSearch button {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    z-index: 100;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    border-radius: 50% !important;
+    border: none !important;
+    color: #8e00a3 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .headerSearch button svg {
+    font-size: 24px;
+}
+
+header .part3 .circle {
+    min-width: 45px !important;
+    min-height: 45px !important;
+    border-radius: 50% !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    color: #8e00a3 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .part3 .circle svg {
+    font-size: 20px;
+}
+
+
+
+.cartTab button {
+    background: #fdeeff !important;
+}
+
+.cartTab button svg {
+    color: #8e00a3 !important;
+}
+
+.cartTab .count {
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    background: #8e00a3;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* ---------------- End of Header ----------------- */
+
+/* ---------------- All Categories Menu ---------------- */
+nav .allCatTab {
+    background: #c400e2 !important;
+    padding: 10px 15px !important;
+    border-radius: 30px !important;
+}
+
+nav .allCatTab *{
+    color: #fff;
+}
+
+nav .allCatTab:hover {
+    background: #8e00a3 !important;
+}
+
+nav .allCatTab .text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav .allCatTab .icon1 svg {
+    font-size: 20px !important;
+}
+
+nav .allCatTab .icon2 svg {
+    font-size: 15px !important;
+}
+
+
+
