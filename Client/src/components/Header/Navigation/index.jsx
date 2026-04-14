@@ -9,13 +9,13 @@ import { PiCoffeeLight } from "react-icons/pi";
 import { GiCheeseWedge } from "react-icons/gi";
 
 const Navigation = () => {
-
+ 
   return (
     <nav>
       <div className="container">
         <div className="row">
           <div className="col-sm-3 navPart1">
-            <Button className='allCatTab align-items-center'>
+            <Button className='allCatTab items-center'>
               <span className='icon1 me-2'>
                 <IoIosMenu />
               </span>
@@ -25,34 +25,34 @@ const Navigation = () => {
               </span>
             </Button>
           </div>
-
-          <div className="col-sm-9 navPart2">
-            <ul className='list-inline-item'>
-              <li>
+ 
+          <div className="col-sm-9 navPart2 d-flex align-items-center ">
+            <ul className='list list-inline w-100 ms-3'>
+              <li className='list-inline-item'>
                 <Link to='/'>Home</Link>  
               </li>
-
-              <li>
+ 
+              <li className='list-inline-item'>
                 <Link to='/'>Shop</Link>  
               </li>
-
-              <li>
+ 
+              <li className='list-inline-item'>
                 <Link to='/'>Meats & SeaFood</Link>  
               </li>
-
-              <li>
+ 
+              <li className='list-inline-item'>
                 <Link to='/'>Bakery</Link>  
               </li>
-
-              <li>
+ 
+              <li className='list-inline-item'>
                 <Link to='/'>Beverages</Link>  
               </li>
-
-              <li>
+ 
+              <li className='list-inline-item'>
                 <Link to='/'>Blog</Link>  
               </li>
-
-              <li>
+ 
+              <li className='list-inline-item'>
                 <Link to='/'>Contact</Link>  
               </li>
             </ul>
@@ -62,6 +62,5 @@ const Navigation = () => {
     </nav>
   )
 }
-
+ 
 export default Navigation
-

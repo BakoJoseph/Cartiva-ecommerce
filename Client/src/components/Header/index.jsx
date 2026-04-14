@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '../../assets/images/logoE.png'
 import { Link } from 'react-router-dom'
 import Button from '@mui/material/Button';
@@ -42,14 +41,12 @@ const Header = () => {
                       12.00
                     </span>
 
-                    <div className="position-relative ms-2">
+                    <div className="position-relative ms-3">
                       <Button className='circle'>
                         <FaOpencart />
                       </Button>
                       <span className='count d-flex align-items-center justify-content-center'>2</span>
-                    </div>
-
-                    
+                    </div>                    
                   </div>
                 </div>
               </div>
