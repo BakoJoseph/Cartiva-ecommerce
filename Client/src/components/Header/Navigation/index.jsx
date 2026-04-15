@@ -14,7 +14,7 @@ const Navigation = () => {
     <nav>
       <div className="container">
         <div className="row">
-          <div className="col-sm-3 navPart1">
+          <div className="col-sm-2 navPart1">
             <Button className='allCatTab items-center'>
               <span className='icon1 me-2'>
                 <IoIosMenu />
@@ -26,8 +26,8 @@ const Navigation = () => {
             </Button>
           </div>
  
-          <div className="col-sm-9 navPart2 d-flex align-items-center ">
-            <ul className='list list-inline w-100 ms-3'>
+          <div className="col-sm-10 navPart2 d-flex align-items-center ">
+            <ul className='list list-inline w-100 ms-auto'>
               <li className='list-inline-item'>
                 <Link to='/'>Home</Link>  
               </li>

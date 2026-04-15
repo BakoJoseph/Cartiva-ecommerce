@@ -6,10 +6,10 @@ const searchBox = () => {
   return (
     <>
       {/* Header search */}
-      <div className='headerSearch ms-3 me-3'>
+      <div className='headerSearch me-3 ms-3'>
         <input
           type='text'
-          placeholder='Search for products...'
+          placeholder='Search your area...'
         />
         <Button><FiSearch /></Button>
       </div>

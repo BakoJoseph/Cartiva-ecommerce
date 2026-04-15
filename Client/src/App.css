@@ -7,6 +7,20 @@
     }
 }
 
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8e00a3 !important;
+    border-radius: 20px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -75,7 +89,7 @@ body {
     opacity: 0.5;
 }
 
-header .headerSearch{
+.headerSearch{
     width: 60%;
     height: 60px;
     border-radius: 15px;
@@ -85,7 +99,7 @@ header .headerSearch{
     padding: 9px !important;
 }
 
-header .headerSearch input {
+.headerSearch input {
     background: transparent !important;
     outline: none !important;
     border: none !important;
@@ -96,11 +110,11 @@ header .headerSearch input {
     width: 100% !important;
 }
 
-header .headerSearch input::placeholder {
+.headerSearch input::placeholder {
     color: rgba(0, 0, 0, 0.5);
 }
 
-header .headerSearch button {
+.headerSearch button {
     position: absolute;
     right: 15px;
     top: 10px;
@@ -116,8 +130,9 @@ header .headerSearch button {
     justify-content: center;
 }
 
-header .headerSearch button svg {
+.headerSearch button svg {
     font-size: 24px;
+    opacity: 0.5;
 }
 
 header .part3 .circle {
@@ -165,12 +180,48 @@ header .part3 .circle svg {
 /* ---------------- End of Header ----------------- */
 
 /* ---------------- All Categories Menu ---------------- */
+.locationModal .MuiPaper-elevation{
+    padding: 25px !important;
+    border-radius: 20px !important;
+}
+
+.locationModal .countryList {
+    max-height: 350px;
+    margin-bottom: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.locationModal .countryList li {
+    width: 100%;
+    list-style: none;
+}
+
+.locationModal .countryList li button {
+    width: 100%;
+    text-transform: capitalize !important;
+    color: rgba(0, 0, 0, 0.7) !important;
+    justify-content: flex-start !important; 
+    padding: 10px 20px;
+}
+
+nav .navPart1 {
+    max-width: 20%; 
+    flex: 0 0 20%;
+}
+
+nav .navPart2 {
+    max-width: 80%;
+    flex: 0 0 80%;
+}
+
 nav .allCatTab {
     background: #c400e2 !important;
     padding: 10px 15px !important;
     border-radius: 30px !important;
     text-align: center !important;
     transition: all 0.3s ease-in-out !important;
+    font-size: 14px !important;
 }
 
 nav .allCatTab *{
@@ -183,7 +234,7 @@ nav .allCatTab:hover {
 }
 
 nav .allCatTab .text {
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 600;
 }
 
@@ -201,7 +252,7 @@ nav .navPart2 ul {
 
 nav .navPart2 ul li a {
     font-family: 'Dosis', sans-serif;
-    font-size: 15px;
+    font-size: 15px !important;
     font-weight: 640;
     text-transform: uppercase !important;
     text-decoration: none !important;
